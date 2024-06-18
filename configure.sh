@@ -1,4 +1,4 @@
-@echo off
-REM invoke conan
+echo off
+# invoke conan
 conan install . --build missung -s build_type=Debug
-REM TODO: Run premake
+# TODO: Run premake
