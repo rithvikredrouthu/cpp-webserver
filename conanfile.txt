@@ -2,4 +2,8 @@
 cpp-httplib/0.16.0
 
 [generators]
-premake
+CMakeDeps
+CMakeToolchain
+
+[layout]
+cmake_layout
