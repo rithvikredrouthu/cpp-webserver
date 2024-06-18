@@ -1,2 +1,2 @@
-# cpp-httplib-tests
-Learning how to use cpp httplib to send http requets in C++.
+# cpp-webserver
+ Learning how to create a webserer in cpp (using cpp-httplib) 
