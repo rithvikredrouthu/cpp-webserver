@@ -3,6 +3,8 @@
 
 CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/src/main.cpp \
   /home/rithvikr/projects/cpp-webserver/include/httplib.h \
+  /home/rithvikr/projects/cpp-webserver/include/inja.hpp \
+  /home/rithvikr/projects/cpp-webserver/include/json.hpp \
   /usr/include/alloca.h \
   /usr/include/arpa/inet.h \
   /usr/include/arpa/nameser.h \
@@ -149,6 +151,7 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
   /usr/include/bits/wordsize.h \
   /usr/include/bits/xopen_lim.h \
   /usr/include/c++/14.1.1/algorithm \
+  /usr/include/c++/14.1.1/any \
   /usr/include/c++/14.1.1/array \
   /usr/include/c++/14.1.1/atomic \
   /usr/include/c++/14.1.1/backward/auto_ptr.h \
@@ -179,12 +182,21 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
   /usr/include/c++/14.1.1/bits/exception.h \
   /usr/include/c++/14.1.1/bits/exception_defines.h \
   /usr/include/c++/14.1.1/bits/exception_ptr.h \
+  /usr/include/c++/14.1.1/bits/forward_list.h \
+  /usr/include/c++/14.1.1/bits/forward_list.tcc \
+  /usr/include/c++/14.1.1/bits/fs_dir.h \
+  /usr/include/c++/14.1.1/bits/fs_fwd.h \
+  /usr/include/c++/14.1.1/bits/fs_ops.h \
+  /usr/include/c++/14.1.1/bits/fs_path.h \
   /usr/include/c++/14.1.1/bits/fstream.tcc \
   /usr/include/c++/14.1.1/bits/functexcept.h \
   /usr/include/c++/14.1.1/bits/functional_hash.h \
+  /usr/include/c++/14.1.1/bits/gslice.h \
+  /usr/include/c++/14.1.1/bits/gslice_array.h \
   /usr/include/c++/14.1.1/bits/hash_bytes.h \
   /usr/include/c++/14.1.1/bits/hashtable.h \
   /usr/include/c++/14.1.1/bits/hashtable_policy.h \
+  /usr/include/c++/14.1.1/bits/indirect_array.h \
   /usr/include/c++/14.1.1/bits/invoke.h \
   /usr/include/c++/14.1.1/bits/ios_base.h \
   /usr/include/c++/14.1.1/bits/istream.tcc \
@@ -197,6 +209,7 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
   /usr/include/c++/14.1.1/bits/locale_facets_nonio.h \
   /usr/include/c++/14.1.1/bits/locale_facets_nonio.tcc \
   /usr/include/c++/14.1.1/bits/localefwd.h \
+  /usr/include/c++/14.1.1/bits/mask_array.h \
   /usr/include/c++/14.1.1/bits/memory_resource.h \
   /usr/include/c++/14.1.1/bits/memoryfwd.h \
   /usr/include/c++/14.1.1/bits/move.h \
@@ -230,6 +243,7 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
   /usr/include/c++/14.1.1/bits/shared_ptr.h \
   /usr/include/c++/14.1.1/bits/shared_ptr_atomic.h \
   /usr/include/c++/14.1.1/bits/shared_ptr_base.h \
+  /usr/include/c++/14.1.1/bits/slice_array.h \
   /usr/include/c++/14.1.1/bits/specfun.h \
   /usr/include/c++/14.1.1/bits/sstream.tcc \
   /usr/include/c++/14.1.1/bits/std_abs.h \
@@ -260,6 +274,7 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
   /usr/include/c++/14.1.1/bits/stl_tree.h \
   /usr/include/c++/14.1.1/bits/stl_uninitialized.h \
   /usr/include/c++/14.1.1/bits/stl_vector.h \
+  /usr/include/c++/14.1.1/bits/stream_iterator.h \
   /usr/include/c++/14.1.1/bits/streambuf.tcc \
   /usr/include/c++/14.1.1/bits/streambuf_iterator.h \
   /usr/include/c++/14.1.1/bits/string_view.tcc \
@@ -273,6 +288,10 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
   /usr/include/c++/14.1.1/bits/uses_allocator.h \
   /usr/include/c++/14.1.1/bits/uses_allocator_args.h \
   /usr/include/c++/14.1.1/bits/utility.h \
+  /usr/include/c++/14.1.1/bits/valarray_after.h \
+  /usr/include/c++/14.1.1/bits/valarray_array.h \
+  /usr/include/c++/14.1.1/bits/valarray_array.tcc \
+  /usr/include/c++/14.1.1/bits/valarray_before.h \
   /usr/include/c++/14.1.1/bits/vector.tcc \
   /usr/include/c++/14.1.1/bits/version.h \
   /usr/include/c++/14.1.1/bitset \
@@ -282,6 +301,7 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
   /usr/include/c++/14.1.1/climits \
   /usr/include/c++/14.1.1/clocale \
   /usr/include/c++/14.1.1/cmath \
+  /usr/include/c++/14.1.1/codecvt \
   /usr/include/c++/14.1.1/compare \
   /usr/include/c++/14.1.1/concepts \
   /usr/include/c++/14.1.1/condition_variable \
@@ -305,6 +325,8 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
   /usr/include/c++/14.1.1/ext/numeric_traits.h \
   /usr/include/c++/14.1.1/ext/string_conversions.h \
   /usr/include/c++/14.1.1/ext/type_traits.h \
+  /usr/include/c++/14.1.1/filesystem \
+  /usr/include/c++/14.1.1/forward_list \
   /usr/include/c++/14.1.1/fstream \
   /usr/include/c++/14.1.1/functional \
   /usr/include/c++/14.1.1/initializer_list \
@@ -313,6 +335,7 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
   /usr/include/c++/14.1.1/iosfwd \
   /usr/include/c++/14.1.1/iostream \
   /usr/include/c++/14.1.1/istream \
+  /usr/include/c++/14.1.1/iterator \
   /usr/include/c++/14.1.1/limits \
   /usr/include/c++/14.1.1/list \
   /usr/include/c++/14.1.1/locale \
@@ -357,7 +380,9 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
   /usr/include/c++/14.1.1/unordered_map \
   /usr/include/c++/14.1.1/unordered_set \
   /usr/include/c++/14.1.1/utility \
+  /usr/include/c++/14.1.1/valarray \
   /usr/include/c++/14.1.1/vector \
+  /usr/include/c++/14.1.1/version \
   /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
   /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/basic_file.h \
   /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
@@ -506,9 +531,13 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/atomic_word.h:
 
+/usr/include/c++/14.1.1/version:
+
 /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/error_constants.h:
 
 /usr/include/c++/14.1.1/vector:
+
+/usr/include/c++/14.1.1/valarray:
 
 /usr/include/c++/14.1.1/utility:
 
@@ -538,13 +567,13 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/c++/14.1.1/random:
 
-/usr/include/c++/14.1.1/pstl/glue_memory_defs.h:
-
 /usr/include/c++/14.1.1/pstl/execution_defs.h:
 
 /usr/include/c++/14.1.1/map:
 
 /usr/include/c++/14.1.1/list:
+
+/usr/include/c++/14.1.1/iterator:
 
 /usr/include/c++/14.1.1/iosfwd:
 
@@ -563,6 +592,12 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/time_members.h:
 
 /usr/include/c++/14.1.1/fstream:
+
+/usr/include/c++/14.1.1/pstl/glue_memory_defs.h:
+
+/usr/include/c++/14.1.1/forward_list:
+
+/usr/include/c++/14.1.1/filesystem:
 
 /usr/include/c++/14.1.1/ext/string_conversions.h:
 
@@ -602,11 +637,9 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/c++/14.1.1/cstddef:
 
-/usr/include/sys/stat.h:
-
-/usr/include/c++/14.1.1/condition_variable:
-
 /usr/include/c++/14.1.1/concepts:
+
+/usr/include/c++/14.1.1/codecvt:
 
 /usr/include/c++/14.1.1/cmath:
 
@@ -620,11 +653,17 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/c++/14.1.1/bits/vector.tcc:
 
+/usr/include/c++/14.1.1/bits/valarray_before.h:
+
+/usr/include/c++/14.1.1/bits/valarray_array.tcc:
+
+/usr/include/c++/14.1.1/bits/valarray_array.h:
+
+/usr/include/c++/14.1.1/bits/valarray_after.h:
+
 /usr/include/c++/14.1.1/bits/uses_allocator_args.h:
 
 /usr/include/c++/14.1.1/bits/unordered_set.h:
-
-/usr/include/c++/14.1.1/bits/unique_ptr.h:
 
 /usr/include/c++/14.1.1/bits/uniform_int_dist.h:
 
@@ -646,6 +685,32 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/c++/14.1.1/bits/stl_uninitialized.h:
 
+/usr/include/sys/cdefs.h:
+
+/usr/include/c++/14.1.1/bits/stl_tree.h:
+
+/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/gthr.h:
+
+/usr/include/c++/14.1.1/bits/stl_tempbuf.h:
+
+/usr/include/c++/14.1.1/bits/stl_relops.h:
+
+/usr/include/features-time64.h:
+
+/usr/include/c++/14.1.1/bits/stl_raw_storage_iter.h:
+
+/usr/include/c++/14.1.1/bits/stl_numeric.h:
+
+/usr/include/c++/14.1.1/mutex:
+
+/usr/include/c++/14.1.1/bits/stl_multiset.h:
+
+/usr/include/c++/14.1.1/bits/version.h:
+
+/usr/include/c++/14.1.1/bits/stl_iterator_base_types.h:
+
+/usr/include/c++/14.1.1/bits/stl_iterator_base_funcs.h:
+
 /usr/include/bits/types/struct_iovec.h:
 
 /usr/include/bits/types/sigset_t.h:
@@ -666,10 +731,6 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/bits/types/__locale_t.h:
 
-/usr/include/c++/14.1.1/mutex:
-
-/usr/include/c++/14.1.1/bits/stl_multiset.h:
-
 /usr/include/bits/types/__fpos64_t.h:
 
 /usr/include/bits/flt-eval-method.h:
@@ -683,8 +744,6 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 /usr/include/c++/14.1.1/bits/align.h:
 
 /usr/include/bits/time64.h:
-
-/usr/include/bits/stdlib-float.h:
 
 /usr/include/bits/thread-shared-types.h:
 
@@ -707,8 +766,6 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 /usr/include/c++/14.1.1/tr1/riemann_zeta.tcc:
 
 /usr/include/bits/types/__mbstate_t.h:
-
-/usr/include/bits/types/clock_t.h:
 
 /usr/include/bits/types/sig_atomic_t.h:
 
@@ -742,10 +799,6 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/c++/14.1.1/bits/istream.tcc:
 
-/usr/include/bits/struct_rwlock.h:
-
-/usr/include/c++/14.1.1/bits/regex_scanner.tcc:
-
 /usr/include/c++/14.1.1/bits/std_thread.h:
 
 /usr/include/bits/socket.h:
@@ -764,14 +817,6 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/bits/atomic_wide_counter.h:
 
-/usr/include/c++/14.1.1/unordered_map:
-
-/usr/include/bits/cpu-set.h:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stdint.h:
-
-/usr/include/bits/confname.h:
-
 /usr/include/bits/byteswap.h:
 
 /usr/include/c++/14.1.1/bits/cpp_type_traits.h:
@@ -785,14 +830,6 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 /usr/include/c++/14.1.1/csignal:
 
 /usr/include/c++/14.1.1/bits/basic_string.tcc:
-
-/usr/include/c++/14.1.1/bits/stl_relops.h:
-
-/usr/include/wchar.h:
-
-/usr/include/c++/14.1.1/bits/locale_facets_nonio.h:
-
-/usr/include/bits/posix1_lim.h:
 
 /usr/include/c++/14.1.1/bits/alloc_traits.h:
 
@@ -810,49 +847,17 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/asm-generic/errno-base.h:
 
-/usr/include/bits/setjmp.h:
+/usr/include/c++/14.1.1/istream:
 
-/usr/include/asm/socket.h:
+/usr/include/bits/siginfo-consts-arch.h:
 
-/usr/include/bits/sigstksz.h:
+/usr/include/bits/sigstack.h:
 
-/usr/include/gnu/stubs-64.h:
+/usr/include/bits/netdb.h:
 
-/usr/include/bits/types/__sigval_t.h:
+/usr/include/c++/14.1.1/cassert:
 
-/usr/include/c++/14.1.1/clocale:
-
-/usr/include/bits/stdint-uintn.h:
-
-/usr/include/asm/errno.h:
-
-/usr/include/c++/14.1.1/tr1/beta_function.tcc:
-
-/usr/include/c++/14.1.1/memory:
-
-/usr/include/bits/types/struct_osockaddr.h:
-
-/usr/include/bits/ss_flags.h:
-
-/usr/include/asm/types.h:
-
-/usr/include/c++/14.1.1/bits/locale_facets.h:
-
-/usr/include/bits/sigthread.h:
-
-/usr/include/alloca.h:
-
-/usr/include/bits/mman-linux.h:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/include/c++/14.1.1/ctime:
-
-/usr/include/bits/timesize.h:
-
-/home/rithvikr/projects/cpp-webserver/src/main.cpp:
-
-/usr/include/asm/param.h:
+/usr/include/c++/14.1.1/bits/functional_hash.h:
 
 /usr/include/sys/ucontext.h:
 
@@ -872,11 +877,21 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/bits/mman.h:
 
+/usr/include/bits/ss_flags.h:
+
 /usr/include/asm/posix_types_64.h:
+
+/usr/include/c++/14.1.1/bits/unique_ptr.h:
+
+/usr/include/c++/14.1.1/bits/fs_ops.h:
 
 /usr/include/c++/14.1.1/bits/regex_automaton.tcc:
 
 /usr/include/asm-generic/socket.h:
+
+/usr/include/c++/14.1.1/bits/stl_list.h:
+
+/usr/include/bits/types/sigval_t.h:
 
 /usr/include/bits/fcntl.h:
 
@@ -888,11 +903,43 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/asm-generic/posix_types.h:
 
+/home/rithvikr/projects/cpp-webserver/include/json.hpp:
+
 /usr/include/bits/time.h:
 
 /usr/include/asm/posix_types.h:
 
 /usr/include/c++/14.1.1/bits/predefined_ops.h:
+
+/usr/include/asm/types.h:
+
+/usr/include/c++/14.1.1/bits/locale_facets.h:
+
+/usr/include/bits/sigthread.h:
+
+/usr/include/alloca.h:
+
+/usr/include/bits/mman-linux.h:
+
+/usr/include/bits/pthreadtypes.h:
+
+/usr/include/asm/param.h:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/asm/socket.h:
+
+/usr/include/bits/sigstksz.h:
+
+/usr/lib/gcc/x86_64-pc-linux-gnu/14.1.1/include/stdint.h:
+
+/usr/include/bits/confname.h:
+
+/usr/include/c++/14.1.1/unordered_map:
+
+/usr/include/bits/cpu-set.h:
+
+/usr/include/c++/14.1.1/bits/fs_fwd.h:
 
 /usr/include/c++/14.1.1/bits/streambuf.tcc:
 
@@ -906,23 +953,27 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/asm/bitsperlong.h:
 
+/usr/include/bits/param.h:
+
 /usr/include/errno.h:
 
 /usr/include/c++/14.1.1/algorithm:
 
+/usr/include/c++/14.1.1/bits/slice_array.h:
+
 /usr/include/bits/getopt_posix.h:
-
-/usr/include/bits/types/struct___jmp_buf_tag.h:
-
-/usr/include/bits/waitstatus.h:
-
-/usr/include/bits/wchar.h:
 
 /usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/ctype_inline.h:
 
 /usr/include/c++/14.1.1/bitset:
 
 /usr/include/asm-generic/errno.h:
+
+/usr/include/c++/14.1.1/iostream:
+
+/usr/include/c++/14.1.1/bits/stl_stack.h:
+
+/usr/include/bits/fp-logb.h:
 
 /usr/include/asm-generic/param.h:
 
@@ -931,6 +982,46 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 /usr/include/bits/types/locale_t.h:
 
 /usr/include/c++/14.1.1/bits/cxxabi_init_exception.h:
+
+/usr/include/c++/14.1.1/bits/forward_list.tcc:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/bits/types/__sigval_t.h:
+
+/usr/include/c++/14.1.1/bits/gslice_array.h:
+
+/usr/include/c++/14.1.1/ctime:
+
+/home/rithvikr/projects/cpp-webserver/src/main.cpp:
+
+/usr/include/bits/timesize.h:
+
+/usr/include/bits/types/struct___jmp_buf_tag.h:
+
+/usr/include/bits/wchar.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/include/c++/14.1.1/bits/fs_dir.h:
+
+/usr/include/c++/14.1.1/clocale:
+
+/usr/include/bits/stdint-uintn.h:
+
+/usr/include/asm/errno.h:
+
+/usr/include/c++/14.1.1/tr1/beta_function.tcc:
+
+/usr/include/c++/14.1.1/memory:
+
+/usr/include/bits/types/struct_osockaddr.h:
+
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/c++/14.1.1/bits/mask_array.h:
+
+/home/rithvikr/projects/cpp-webserver/include/inja.hpp:
 
 /usr/include/libintl.h:
 
@@ -958,17 +1049,9 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/bits/floatn.h:
 
-/usr/include/c++/14.1.1/istream:
+/usr/include/c++/14.1.1/bits/stl_pair.h:
 
-/usr/include/bits/siginfo-consts-arch.h:
-
-/usr/include/bits/sigstack.h:
-
-/usr/include/c++/14.1.1/cassert:
-
-/usr/include/c++/14.1.1/bits/functional_hash.h:
-
-/usr/include/bits/netdb.h:
+/usr/include/c++/14.1.1/bits/invoke.h:
 
 /usr/include/string.h:
 
@@ -992,8 +1075,6 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/c++/14.1.1/bits/fstream.tcc:
 
-/usr/include/c++/14.1.1/bits/stl_iterator_base_funcs.h:
-
 /usr/include/c++/14.1.1/pstl/pstl_config.h:
 
 /usr/include/bits/iscanonical.h:
@@ -1012,6 +1093,16 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/bits/libc-header-start.h:
 
+/usr/include/c++/14.1.1/bits/regex_scanner.tcc:
+
+/usr/include/bits/struct_rwlock.h:
+
+/usr/include/wchar.h:
+
+/usr/include/bits/posix1_lim.h:
+
+/usr/include/c++/14.1.1/bits/locale_facets_nonio.h:
+
 /usr/include/sys/socket.h:
 
 /usr/include/bits/mathcalls-helper-functions.h:
@@ -1028,8 +1119,6 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/arpa/nameser.h:
 
-/usr/include/bits/param.h:
-
 /usr/include/bits/types/struct_sched_param.h:
 
 /usr/include/bits/types/struct_sigstack.h:
@@ -1045,6 +1134,10 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 /usr/include/bits/types/struct_tm.h:
 
 /usr/include/bits/types/timer_t.h:
+
+/usr/include/c++/14.1.1/bits/stream_iterator.h:
+
+/usr/include/c++/14.1.1/bits/indirect_array.h:
 
 /usr/include/bits/uintn-identity.h:
 
@@ -1078,6 +1171,12 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/c++/14.1.1/bits/ptr_traits.h:
 
+/usr/include/sys/stat.h:
+
+/usr/include/c++/14.1.1/condition_variable:
+
+/usr/include/c++/14.1.1/any:
+
 /usr/include/bits/posix2_lim.h:
 
 /usr/include/c++/14.1.1/backward/auto_ptr.h:
@@ -1106,15 +1205,9 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/c++/14.1.1/bits/basic_string.h:
 
-/usr/include/features-time64.h:
-
-/usr/include/c++/14.1.1/bits/stl_raw_storage_iter.h:
-
 /usr/include/c++/14.1.1/unordered_set:
 
 /usr/include/c++/14.1.1/bits/char_traits.h:
-
-/usr/include/c++/14.1.1/bits/stl_numeric.h:
 
 /usr/include/linux/posix_types.h:
 
@@ -1146,6 +1239,12 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/c++/14.1.1/bits/exception_defines.h:
 
+/usr/include/bits/stdlib-float.h:
+
+/usr/include/c++/14.1.1/bits/forward_list.h:
+
+/usr/include/c++/14.1.1/bits/gslice.h:
+
 /usr/include/bits/mman-shared.h:
 
 /usr/include/c++/14.1.1/bits/shared_ptr_atomic.h:
@@ -1164,6 +1263,8 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/c++/14.1.1/bits/memory_resource.h:
 
+/usr/include/c++/14.1.1/bits/fs_path.h:
+
 /usr/include/c++/14.1.1/bits/regex_error.h:
 
 /usr/include/c++/14.1.1/tr1/bessel_function.tcc:
@@ -1179,6 +1280,12 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 /usr/include/c++/14.1.1/bits/nested_exception.h:
 
 /usr/include/c++/14.1.1/bits/new_allocator.h:
+
+/usr/include/c++/14.1.1/bits/stl_set.h:
+
+/usr/include/c++/14.1.1/bits/random.tcc:
+
+/usr/include/c++/14.1.1/bits/node_handle.h:
 
 /usr/include/c++/14.1.1/bits/ostream.tcc:
 
@@ -1240,12 +1347,6 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 
 /usr/include/c++/14.1.1/bits/shared_ptr_base.h:
 
-/usr/include/c++/14.1.1/bits/random.tcc:
-
-/usr/include/c++/14.1.1/bits/node_handle.h:
-
-/usr/include/c++/14.1.1/bits/stl_set.h:
-
 /usr/include/c++/14.1.1/atomic:
 
 /usr/include/c++/14.1.1/bits/specfun.h:
@@ -1263,29 +1364,3 @@ CMakeFiles/webserver.dir/src/main.cpp.o: /home/rithvikr/projects/cpp-webserver/s
 /usr/include/c++/14.1.1/bits/stl_function.h:
 
 /usr/include/c++/14.1.1/bits/stl_heap.h:
-
-/usr/include/c++/14.1.1/bits/version.h:
-
-/usr/include/c++/14.1.1/bits/stl_iterator_base_types.h:
-
-/usr/include/bits/types/sigval_t.h:
-
-/usr/include/c++/14.1.1/bits/stl_list.h:
-
-/usr/include/c++/14.1.1/bits/invoke.h:
-
-/usr/include/c++/14.1.1/bits/stl_pair.h:
-
-/usr/include/c++/14.1.1/iostream:
-
-/usr/include/bits/fp-logb.h:
-
-/usr/include/c++/14.1.1/bits/stl_stack.h:
-
-/usr/include/c++/14.1.1/x86_64-pc-linux-gnu/bits/gthr.h:
-
-/usr/include/c++/14.1.1/bits/stl_tempbuf.h:
-
-/usr/include/sys/cdefs.h:
-
-/usr/include/c++/14.1.1/bits/stl_tree.h:

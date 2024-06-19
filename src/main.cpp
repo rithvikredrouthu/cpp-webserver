@@ -1,4 +1,5 @@
 #include "httplib.h"
+#include "inja.hpp"
 #include <iostream>
 
 int main(void) {
@@ -9,8 +10,15 @@ int main(void) {
   server.set_mount_point("/www-data", "app/www-data");
 
   server.Get("/", [&](const httplib::Request &req, httplib::Response &res) {
+    inja::Environment env;
+    inja::Template tpl = env.parse_template("app/templates/index.html");
+
+    inja::json page_data;
+    page_data["page_title"] = "Hello, World!";
+    page_data["code"] = "let x = 3;";
+
     res.set_content(
-      "<html><head><title>Index page</title></head><body><h1>Hello, World!</h1></body></html>", 
+      env.render(tpl, page_data),
       "text/html"
     );
   });
