@@ -1,1 +1,0 @@
-. "/home/rithvikr/projects/cpp-webserver/build/Debug/generators/conanrunenv-debug-x86_64.sh"
